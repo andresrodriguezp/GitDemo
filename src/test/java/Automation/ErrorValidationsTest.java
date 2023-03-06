@@ -54,6 +54,7 @@ public class ErrorValidationsTest extends BaseTest {
 		Assert.assertFalse(match);
 		
 		System.out.println("updating something");
+		System.out.println("updating something else");
 	}
 
 }
