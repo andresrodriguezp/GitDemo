@@ -3,6 +3,3 @@ d
 f
 f
 s
-s
-d
-s
