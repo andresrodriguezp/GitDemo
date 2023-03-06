@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- for execute modules in parallel, we set the parameter parallel at suite level-->
+<suite name="Suite">
+<!-- for execute testcases in groups we first create a group at suite level and decide which testcases to run-->
+<groups>
+<run >
+<include name="Purchase"/>
+</run>
+</groups>
+
+  <test thread-count="5" name="SubmitOrder Test">
+    <classes>
+      <class name="Automation.SubmitOrderTest"/>
+    </classes>
+  </test> <!--Test -->
+<!-- for execute methods in parallel, we set the parameter parallel at moduletest level-->
+  <test thread-count="5" name="ErrorValidations Test">
+    <classes>
+      <class name="Automation.ErrorValidationsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

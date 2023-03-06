@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Automation.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="SubmitOrder Test(failed)">
+    <classes>
+      <class name="Automation.SubmitOrderTest">
+        <methods>
+          <include name="closePage"/>
+          <include name="submitOrder" invocation-numbers="0 1"/>
+          <include name="OrderHistoryTest"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- Automation.SubmitOrderTest -->
+    </classes>
+  </test> <!-- SubmitOrder Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

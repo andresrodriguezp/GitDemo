@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="Automation.SubmitOrderTest">
+        <methods>
+          <include name="closePage"/>
+          <include name="submitOrder" invocation-numbers="0"/>
+          <include name="OrderHistoryTest"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- Automation.SubmitOrderTest -->
+      <class name="Automation.ErrorValidationsTest">
+        <methods>
+          <include name="closePage"/>
+          <include name="errorvalidations"/>
+          <include name="launchApplication"/>
+          <include name="productErrorValidation"/>
+        </methods>
+      </class> <!-- Automation.ErrorValidationsTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
