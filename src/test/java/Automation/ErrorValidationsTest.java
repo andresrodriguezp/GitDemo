@@ -52,6 +52,8 @@ public class ErrorValidationsTest extends BaseTest {
 
 		Boolean match = itemsadded.correctItems("ZARA COAT 33");
 		Assert.assertFalse(match);
+		
+		System.out.println("updating something");
 	}
 
 }
