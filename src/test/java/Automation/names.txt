@@ -3,6 +3,7 @@ a
 d
 a
 a
+b
 
 numbers
 1
@@ -10,3 +11,4 @@ numbers
 3
 1
 1
+2
