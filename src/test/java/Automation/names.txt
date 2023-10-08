@@ -1,10 +1,12 @@
 alpahbets
 a
 d
-
+a
+a
 
 numbers
 1
 2
 3
-
+1
+1
