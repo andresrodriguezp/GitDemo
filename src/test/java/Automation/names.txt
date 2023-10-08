@@ -1,15 +1,10 @@
 alpahbets
 a
 d
-f
-f
-s
+
 
 numbers
 1
 2
 3
-4
-5
-4
-6
+
